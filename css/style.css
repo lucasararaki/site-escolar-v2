@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Tahoma', sans-serif;
+    color: #000;
+}
+a, a:link, a:visited, a:hover, a:active{
+    color:inherit;
+    text-decoration:none;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header, main, footer{
+    width: 960px;
+    margin: 0px auto;
+}
+/* =========== Header =========== */
+#nav-top{
+    height: 40px;
+    background-color: #377;
+}
+#nav-top #opc{
+    float: right;
+}
+#nav-top #opc ul li{
+    float: left;
+    width: 150px;
+    line-height: 40px;
+}
+#nav-top #opc ul li a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    transition-duration: 0.7s;
+}
+#nav-top #opc ul li a:hover{
+    background-color: #111;
+    transition-duration: 0.7s;
+}
+.active{
+    background-color: rgba(255, 175, 0, 0.9);
+}
+/* =========== Header Logo =========== */
+#logo{
+    height: 200px;
+    background-color: #bbb;
+}
+#logo #logo-nome{
+    float: left;
+    width: 510px;
+    height: inherit;
+    background: linear-gradient(to left bottom, #a8d4fb, #d2eefd);
+}
+#logo #logo-nome #etec{
+    margin: 40px 0 0 40px;
+    font-size: 64px;
+    font-weight: bold;
+}
+#logo #logo-nome #jda{
+    font-size: 48px;
+    margin-left: 80px;
+}
+#logo #image{
+    float: right;
+    width: 450px;
+    height: inherit;
+}
+#logo #image img{
+    height: 200px;
+    float: right;
+}
+/* =========== Main =========== */
+main{
+    background-color: rgba(48, 127, 127, 0.5);
+    display: flex;
+}
+/* =========== Lateral Esquerda =========== */
+#left{
+    margin: 40px 15px 15px 15px;
+    width: 250px;
+    float: left;
+}
+#nav-left h3{    
+    padding: 15px 0;
+    font-size: 24px;
+    text-align: center;
+    background-color: #bbb;
+}
+#nav-left ul{
+}
+#nav-left ul li{
+    display: block;
+    height: 45px;
+    line-height: 45px;
+}
+#nav-left ul li a{
+    padding-left: 25px;
+    display: block;
+    transition-duration: 0.7s;
+    background-color: #ddd;
+}
+#nav-left ul li a:hover{
+    background-color: #aaa;
+    transition-duration: 0.7s;
+}
+/* =========== Estágios =========== */
+.box{
+    margin: 20px 0;
+    padding: 15px;
+}
+#estagios h3{
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+#estagios div{
+    background-color: rgba(48, 127, 127, 0.2);
+    height: 200px;
+    margin: 15px 0 0;
+}
+#estagios #ciee{
+    background-color: rgba(48, 127, 127, 0.2);
+    height: 150px;
+}
+/* =========== Redes Sociais =========== */
+#social-network{
+    background-color: rgba(48, 127, 127, 0.2);
+}
+#social-network h3{
+    display: block;
+    font-size: 24px;
+    text-align: center;
+}
+#social-network #icons{
+    text-align: center;
+}
+#social-network #icons div{
+    display: inline-block;
+    margin: 15px 10px;
+}
+/* =========== Noticias =========== */
+#notices{
+    margin: 15px;
+    float: right;
+    width: 650px;
+}
+#notices h1{
+    display: block;
+    font-size: 36px;
+    padding: 15px 0px 15px 40px;
+}
+#notices .card{
+    position: relative;
+    margin: 0px 15px 30px 15px;
+    height: 250px;
+    background-color: #ddd;
+}
+#notices .card h3{
+    display: block;
+    font-size: 24px;
+    background-color: #777;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 25px;
+}
+#notices .card h5{
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+#notices .card p{
+    margin: 10px;
+    line-height: 1.5;
+}
+#notices .card a{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+#notices h2{
+    height: 45px;
+    line-height: 45px;
+    font-size: 32px;
+    text-align: center;
+    margin: -10px 0 20px;
+}
+/* =========== Footer =========== */
+.bar{
+    height: 50px;
+    background-color: #388;
+}
+footer{
+    background-color: #5aa;
+}
+footer #info{
+    display: block;
+    padding: 20px;
+    
+}
